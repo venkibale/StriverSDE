@@ -2,6 +2,8 @@
 
 // First Negative Integer in Every Window of Size K
 
+//Here i-k+1 is the first ele in the window
+
 function firstNegativeInWindow(arr, k) {
     let result = [];
     let firstNegativeIndex = -1; // To keep track of the first negative number's index in the current window
